@@ -5,12 +5,13 @@
 }
 #sliderFrame 
 {
-    width:700px;
+    width:900px;
     margin:0 auto; /*center-aligned*/
 }
 
 #slider, #slider .sliderInner {
-    width:700px;height:306px;/* Must be the same size as the slider images */
+    width:800px;
+    height:313px; /* Must be the same size as the slider images */
     border-radius:3px;
 }
 
@@ -70,7 +71,7 @@
 {
     width:11px; height:11px;
     font-size:0;color:White;/*hide the index number in the bullet element*/
-    background:transparent url(images/bullet.png) no-repeat 0 0;
+    background:transparent url('/images/bullet.png') no-repeat 0 0;
     display:inline-block; *display:inline; zoom:1;
     overflow:hidden;cursor:pointer;
     margin:0 6px;/* set distance between each bullet*/

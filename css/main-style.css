@@ -136,6 +136,7 @@
 
 .article-header {
     font-size: 40px;
+    font-weight: 700;
 }
 
 .article-sentence {
@@ -169,6 +170,7 @@
 .article-header-one {
     margin: 20px auto;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .last-section {
@@ -178,4 +180,66 @@
     text-align: center;
     font-weight: 900;
     margin: 50px auto;
+}
+
+/* Footer */
+
+.main-footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+  background: #222;
+  padding: 30px 0;
+  color: #777;
+}
+
+.footer_parent {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Best_Agents_Title,
+.footer_about_us {
+  color: #4C9BD7;
+}
+
+.footer_company_slogan {
+  margin: 50px auto;
+}
+
+.footer_second_column {
+  margin-bottom: 100px;
+}
+
+#myButton {
+    background: #4b9bd7;
+    border: none;
+    padding: 3px 20px;
+    margin: 5px;
+    color: white;
+}
+
+.footer_copyright_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 70px;
+  margin-top: 40px;
+}
+
+.copyright a {
+  color: #999999;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #fff;
 }
