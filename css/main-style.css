@@ -101,11 +101,18 @@
 }
 
 .navigational-menu ul li {
-    margin: 20px;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     list-style: none;
     display: inline-block;
     position: relative;
+}
+
+.navigational-menu ul li:hover {
+  background: #79B430;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 #logo-one {
@@ -120,7 +127,9 @@
 }
 
 .main-header {
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 70px;
 }
 
 .mySentence {
@@ -141,6 +150,11 @@
 
 .article-sentence {
     font-size: 20px;
+}
+
+.image-one {
+  border: 1px solid #eee;
+  border-radius: 3px;
 }
 
 .image-one img {
@@ -194,8 +208,9 @@
 
 footer {
   background: #222;
-  padding: 30px 0;
+  padding: 44px 0;
   color: #777;
+  margin: 90px auto;
 }
 
 .footer_parent {
@@ -242,4 +257,9 @@ footer {
 
 .copyright a:hover {
   color: #fff;
+}
+
+hr {
+  border: 0.1px solid #777;
+  opacity: 0.9;
 }
