@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    #menu.navi {
+        display: grid;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .article-section {
+        display: grid;
+        text-align: center;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 1200px) {
+    .image-one img {
+        max-width: 900px;
+        height: 100%;
+    }
+
+    .article-sentence {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .content-part {
+        padding: 0 133px;
+        font-size: 20px;
+        margin: 50px 0 0 0;
+    }
+}
